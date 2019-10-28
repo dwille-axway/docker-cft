@@ -8,12 +8,16 @@ AMPLIFY Transfer CFT 3.5 Docker image
 ## Before you begin
 
 This document assumes a basic understanding of core Docker concepts such as containers, container images, and basic Docker commands.
-If needed, see [Get started with Docker](https://docs.docker.com/get-started/) for a primer on container basics.
+If needed, see [Get started with Docker](https://docs.docker.com/get-started/) for a primer on container basics. More information on building CFT in docker containers can be found on in the Transfer CFT 3.5 Local Administration Guide under the [Install Transfer CFT in a Docker Container](https://docs.axway.com/bundle/TransferCFT_35_LocalAdministrationGuide_allOS_en_HTML5/page/Content/docker/docker.htm) topic.
 
 ### Prerequisites
 
 - Docker version 17.11 or higher
 - Docker-Compose version 1.17.0 or higher
+- This repository cloned to your local build system. Docker build commands will be run from the cloned directory.
+```console
+git clone https://github.com/Axway/docker-cft.git
+```
 
 ## How to use the Transfer CFT Dockerfile and docker-compose.yml files
 
